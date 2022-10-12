@@ -1,0 +1,60 @@
+.container{
+    margin: 50px;
+   background-color: beige;
+   font-family:  fantasy;
+   font-weight: bold;
+   font-size: 1rem;
+   border: 2px solid cyan;
+   height: 200px;
+   width: 500px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10%;
+   
+   
+}
+
+h1{
+    text-align: center;
+  color: blue;
+}
+h1:hover{
+  color: green;
+  font-family: sans-serif;
+}
+form{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1rem; 
+    display: block; 
+  margin: 50px;
+  padding: 20px;
+  background-color: cyan;
+}
+hr{
+    height: 2px;
+    background-color: cyan;
+    border-color: cyan;
+}
+
+
+input[type=number]:hover{
+  border: 2px solid cyan;
+  background-color: green;
+  color: black;
+}
+button:hover{
+  border: 2px solid cyan;
+  background-color: green;
+  color: black;
+  border-radius: 2rem;
+  
+}
+label{
+  color: blue;
+  
+}
+p:hover{
+  color: green;
+  font-family: sans-serif;
+}

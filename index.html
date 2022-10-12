@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUICK TELLER APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Quickteller App</h1>
+  <hr>
+  <div class="container">
+     <p> Quick teller app  helps  a user to know their horoscope based on their month and date of birth</p>
+    <p> There are 12 zodiac signs, 
+        and each sign has its own strengths and weaknesses, its own specific traits, desires and attitude towards life and people. By analyzing the projection of the position of planets, and the Sun and the Moon on the Ecliptic at the moment of birth. Astrology can give us 
+        a glimpse of a person's basic characteristics, preferences, flaws and fears</p>
+
+  </div>
+  
+    <form onSubmit='returnHoroscope(event)' class=""  method="post">
+      <label for="month" > Select month of birth:</label>
+      <select name="month" id="month">
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">August</option>
+        <optionvalue="9">September</option>
+        <option value="10">October</option>
+      <option value="11">November</option>
+      <option value="12">December</option>
+      </select>
+      <br>
+      <label for="day"> Day of birth:</label>
+      <input type="number" name="day" min="1" max="31" required><br><br>
+      
+      <button type="submit" name="button">Check horoscope</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+  </html>
